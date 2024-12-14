@@ -6,7 +6,7 @@ const { Client, GatewayIntentBits } = require("discord.js");
 const app = express();
 app.use(express.static("public"));
 
-const serverPort = process.env.PORT || 10000;
+const serverPort = process.env.PORT || 8000;
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ port: serverPort });
 

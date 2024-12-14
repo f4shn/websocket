@@ -6,10 +6,10 @@ const { Client, GatewayIntentBits } = require("discord.js");
 const app = express();
 app.use(express.static("public"));
 
-const serverPort = process.env.PORT || 3000;
+const serverPort = process.env.PORT || 10000;
 const server = http.createServer(app);
-const wss = new WebSocket.Server({ port: 5001 });
-console.log(`WebSocket server started at: ws://localhost:5001`);
+const wss = new WebSocket.Server({ port: 10000 });
+console.log(`WebSocket server started at: ws://localhost:10000`);
 
 server.listen(serverPort, () => {
   console.log(`Server started on port ${serverPort}`);

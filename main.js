@@ -79,7 +79,7 @@ const generateClientId = () => {
   return `client-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
 }
 
-discordClient.login(DISCORD_BOT_TOKEN);
+discordClient.login(process.env.DISCORD_BOT_TOKEN);
 
 app.get('/', (req, res) => {
   res.send('Hello World!');

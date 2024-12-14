@@ -8,8 +8,11 @@ app.use(express.static("public"));
 
 const serverPort = process.env.PORT || 10000;
 const server = http.createServer(app);
-const wss = new WebSocket.Server({ port: 10000 });
-console.log(`WebSocket server started at: ws://localhost:10000`);
+const wss = new WebSocket.Server({ port: serverPort });
+
+// Determine the URL and print it
+const host = process.env.HOST || 'localhost';
+console.log(`WebSocket server started at: ws://${host}:${serverPort}`);
 
 server.listen(serverPort, () => {
   console.log(`Server started on port ${serverPort}`);
@@ -48,7 +51,7 @@ wss.on("connection", function (ws) {
   console.log("Client size: ", wss.clients.size);
 
   // Assign initial amount for the new client
-  const clientId = generateClientId(); // Implement a function to generate a unique ID for each client
+  const clientId = generateClientId();
   clientAmounts[clientId] = 0; // Initial amount is set to 0
 
   ws.on("message", (data) => {
@@ -62,14 +65,12 @@ wss.on("connection", function (ws) {
 
   ws.on("close", () => {
     console.log("Closing connection");
-
     // Update the client's amount when they disconnect
     clientAmounts[clientId] += 1; // Change this logic based on how you want to modify the amount
     console.log(`Client disconnected. New amount for client ${clientId}: ${clientAmounts[clientId]}`);
     
     // Optionally clean up the amount for the client
     delete clientAmounts[clientId];
-    
     console.log("Client amounts: ", clientAmounts);
   });
 });

